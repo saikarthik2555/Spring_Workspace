@@ -1,0 +1,15 @@
+#
+spring:
+  application:
+    name: BootProj1_MiniProj
+  main:
+    banner-mode: 'off'
+  profiles:
+    active:
+    - q
+    include:
+    - test
+  config:
+    activate:
+     on-profile:
+      - uat
